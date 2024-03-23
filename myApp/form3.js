@@ -111,7 +111,7 @@ sydDOM.tabs = () =>{
     return createElement(
         'div',
         {
-            style:styleComponent.reuse_flex({method:'remove',style:['justifyContent','alignItems']})+styleComponent.tab({method:'add',style:{height:'fit-content',minHeight:'70px'}}),
+            style:styleComponent.reuse_flex({method:'remove',style:['justifyContent']})+styleComponent.tab({method:'add',style:{height:'fit-content',minHeight:'70px'}}),
             id:'tab'
         },
         [
